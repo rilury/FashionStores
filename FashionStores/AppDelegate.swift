@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -33,5 +34,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+class CoreDataStack {
+    private let modelName: String
+
+     init(modelName: String) {
+       self.modelName = modelName
+     }
+
+     lazy var managedObjectContext: NSManagedObjectContext = {
+       return self.storeContainer.viewContext
+     }()
+
+     private lazy var storeContainer: NSPersistentContainer = {
+       let container = NSPersistentContainer(name: self.modelName)
+       container.loadPersistentStores { (storeDescription, error) in
+        if let error = error as NSError? {
+            print(error.localizedDescription)
+         }
+       }
+       return container
+     }()
+
+     func saveContext () {
+       guard managedObjectContext.hasChanges else { return }
+
+       do {
+         try managedObjectContext.save()
+       } catch let error as NSError {
+        print(error.localizedDescription)
+       }
+     }
 }
 

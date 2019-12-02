@@ -1,0 +1,626 @@
+{
+    "response": {
+        "stores": [
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Zara Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Bershka Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Otter Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "H&M Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Guess Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Levis Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Aldo Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Nissa Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Massimo Duti Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Deichman Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Decathlon Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Sportissimo Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Famous Brands Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Desigual Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Armani Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Poema Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "C&A Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },  {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Gucci Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Stradivarius Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Zara Man Fashion",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "234 Canal St",
+                    "postalCode": "10013",
+                    "city": "New York",
+                    "country": "United States"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 6820
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Economy",
+                    "currency":"$"
+                }
+            }
+        ]
+    }
+}
+

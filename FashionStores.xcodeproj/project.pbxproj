@@ -13,6 +13,19 @@
 		49B2007323953DB200A02482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2007123953DB200A02482 /* Main.storyboard */; };
 		49B2007523953DB300A02482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B2007423953DB300A02482 /* Assets.xcassets */; };
 		49B2007823953DB300A02482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2007623953DB300A02482 /* LaunchScreen.storyboard */; };
+		49B2008023953E2700A02482 /* stores.json in Resources */ = {isa = PBXBuildFile; fileRef = 49B2007F23953E2700A02482 /* stores.json */; };
+		49B200832395438700A02482 /* Stores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49B200812395438700A02482 /* Stores.xcdatamodeld */; };
+		49B2008E239550B100A02482 /* Price+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20084239550B000A02482 /* Price+CoreDataClass.swift */; };
+		49B2008F239550B100A02482 /* Price+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20085239550B000A02482 /* Price+CoreDataProperties.swift */; };
+		49B20090239550B100A02482 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20086239550B000A02482 /* Store+CoreDataClass.swift */; };
+		49B20091239550B100A02482 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20087239550B100A02482 /* Store+CoreDataProperties.swift */; };
+		49B20092239550B100A02482 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20088239550B100A02482 /* Location+CoreDataClass.swift */; };
+		49B20093239550B100A02482 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20089239550B100A02482 /* Location+CoreDataProperties.swift */; };
+		49B20094239550B100A02482 /* Type+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2008A239550B100A02482 /* Type+CoreDataClass.swift */; };
+		49B20095239550B100A02482 /* Type+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2008B239550B100A02482 /* Type+CoreDataProperties.swift */; };
+		49B20096239550B100A02482 /* Checkin+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2008C239550B100A02482 /* Checkin+CoreDataClass.swift */; };
+		49B20097239550B100A02482 /* Checkin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2008D239550B100A02482 /* Checkin+CoreDataProperties.swift */; };
+		49B20099239564C300A02482 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20098239564C300A02482 /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		49B2007423953DB300A02482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B2007723953DB300A02482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B2007923953DB300A02482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B2007F23953E2700A02482 /* stores.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stores.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		49B200822395438700A02482 /* Stores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stores.xcdatamodel; sourceTree = "<group>"; };
+		49B20084239550B000A02482 /* Price+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Price+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49B20085239550B000A02482 /* Price+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Price+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49B20086239550B000A02482 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49B20087239550B100A02482 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49B20088239550B100A02482 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49B20089239550B100A02482 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49B2008A239550B100A02482 /* Type+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49B2008B239550B100A02482 /* Type+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49B2008C239550B100A02482 /* Checkin+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checkin+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49B2008D239550B100A02482 /* Checkin+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checkin+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49B20098239564C300A02482 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,16 @@
 		49B2006A23953DB200A02482 /* FashionStores */ = {
 			isa = PBXGroup;
 			children = (
+				49B20084239550B000A02482 /* Price+CoreDataClass.swift */,
+				49B20085239550B000A02482 /* Price+CoreDataProperties.swift */,
+				49B20086239550B000A02482 /* Store+CoreDataClass.swift */,
+				49B20087239550B100A02482 /* Store+CoreDataProperties.swift */,
+				49B20088239550B100A02482 /* Location+CoreDataClass.swift */,
+				49B20089239550B100A02482 /* Location+CoreDataProperties.swift */,
+				49B2008A239550B100A02482 /* Type+CoreDataClass.swift */,
+				49B2008B239550B100A02482 /* Type+CoreDataProperties.swift */,
+				49B2008C239550B100A02482 /* Checkin+CoreDataClass.swift */,
+				49B2008D239550B100A02482 /* Checkin+CoreDataProperties.swift */,
 				49B2006B23953DB200A02482 /* AppDelegate.swift */,
 				49B2006D23953DB200A02482 /* SceneDelegate.swift */,
 				49B2006F23953DB200A02482 /* ViewController.swift */,
@@ -63,6 +99,9 @@
 				49B2007423953DB300A02482 /* Assets.xcassets */,
 				49B2007623953DB300A02482 /* LaunchScreen.storyboard */,
 				49B2007923953DB300A02482 /* Info.plist */,
+				49B2007F23953E2700A02482 /* stores.json */,
+				49B200812395438700A02482 /* Stores.xcdatamodeld */,
+				49B20098239564C300A02482 /* FilterViewController.swift */,
 			);
 			path = FashionStores;
 			sourceTree = "<group>";
@@ -127,6 +166,7 @@
 			files = (
 				49B2007823953DB300A02482 /* LaunchScreen.storyboard in Resources */,
 				49B2007523953DB300A02482 /* Assets.xcassets in Resources */,
+				49B2008023953E2700A02482 /* stores.json in Resources */,
 				49B2007323953DB200A02482 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +179,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B2007023953DB200A02482 /* ViewController.swift in Sources */,
+				49B20091239550B100A02482 /* Store+CoreDataProperties.swift in Sources */,
+				49B20094239550B100A02482 /* Type+CoreDataClass.swift in Sources */,
+				49B2008E239550B100A02482 /* Price+CoreDataClass.swift in Sources */,
 				49B2006C23953DB200A02482 /* AppDelegate.swift in Sources */,
+				49B20093239550B100A02482 /* Location+CoreDataProperties.swift in Sources */,
+				49B20096239550B100A02482 /* Checkin+CoreDataClass.swift in Sources */,
 				49B2006E23953DB200A02482 /* SceneDelegate.swift in Sources */,
+				49B20097239550B100A02482 /* Checkin+CoreDataProperties.swift in Sources */,
+				49B20099239564C300A02482 /* FilterViewController.swift in Sources */,
+				49B200832395438700A02482 /* Stores.xcdatamodeld in Sources */,
+				49B20092239550B100A02482 /* Location+CoreDataClass.swift in Sources */,
+				49B20095239550B100A02482 /* Type+CoreDataProperties.swift in Sources */,
+				49B20090239550B100A02482 /* Store+CoreDataClass.swift in Sources */,
+				49B2008F239550B100A02482 /* Price+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +390,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49B200812395438700A02482 /* Stores.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49B200822395438700A02482 /* Stores.xcdatamodel */,
+			);
+			currentVersion = 49B200822395438700A02482 /* Stores.xcdatamodel */;
+			path = Stores.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 49B2006023953DB200A02482 /* Project object */;
 }
