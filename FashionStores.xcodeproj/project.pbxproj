@@ -26,6 +26,7 @@
 		49B20096239550B100A02482 /* Checkin+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2008C239550B100A02482 /* Checkin+CoreDataClass.swift */; };
 		49B20097239550B100A02482 /* Checkin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2008D239550B100A02482 /* Checkin+CoreDataProperties.swift */; };
 		49B20099239564C300A02482 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B20098239564C300A02482 /* FilterViewController.swift */; };
+		49B2009B2396654200A02482 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2009A2396654200A02482 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		49B2008C239550B100A02482 /* Checkin+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checkin+CoreDataClass.swift"; sourceTree = "<group>"; };
 		49B2008D239550B100A02482 /* Checkin+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checkin+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		49B20098239564C300A02482 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		49B2009A2396654200A02482 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				49B2007F23953E2700A02482 /* stores.json */,
 				49B200812395438700A02482 /* Stores.xcdatamodeld */,
 				49B20098239564C300A02482 /* FilterViewController.swift */,
+				49B2009A2396654200A02482 /* Extensions.swift */,
 			);
 			path = FashionStores;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				49B20097239550B100A02482 /* Checkin+CoreDataProperties.swift in Sources */,
 				49B20099239564C300A02482 /* FilterViewController.swift in Sources */,
 				49B200832395438700A02482 /* Stores.xcdatamodeld in Sources */,
+				49B2009B2396654200A02482 /* Extensions.swift in Sources */,
 				49B20092239550B100A02482 /* Location+CoreDataClass.swift in Sources */,
 				49B20095239550B100A02482 /* Type+CoreDataProperties.swift in Sources */,
 				49B20090239550B100A02482 /* Store+CoreDataClass.swift in Sources */,

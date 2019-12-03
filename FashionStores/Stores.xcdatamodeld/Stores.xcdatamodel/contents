@@ -29,11 +29,12 @@
         <attribute name="typeID" optional="YES" attributeType="String"/>
         <relationship name="store" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Store" inverseName="type" inverseEntity="Store"/>
     </entity>
+    <fetchRequest name="StoresFetchRequest" entity="Store"/>
     <elements>
-        <element name="Type" positionX="-13.01953125" positionY="398.2890625" width="128" height="88"/>
-        <element name="Store" positionX="-457.2265625" positionY="110.07421875" width="128" height="148"/>
+        <element name="Checkin" positionX="-9.15234375" positionY="-49.30078125" width="128" height="73"/>
         <element name="Location" positionX="34.5546875" positionY="56.625" width="128" height="118"/>
         <element name="Price" positionX="17.85546875" positionY="234.94140625" width="128" height="73"/>
-        <element name="Checkin" positionX="-9.15234375" positionY="-49.30078125" width="128" height="73"/>
+        <element name="Store" positionX="-457.2265625" positionY="110.07421875" width="128" height="148"/>
+        <element name="Type" positionX="-13.01953125" positionY="398.2890625" width="128" height="88"/>
     </elements>
 </model>

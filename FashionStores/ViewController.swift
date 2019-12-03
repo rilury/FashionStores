@@ -12,13 +12,38 @@ import CoreData
 class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var fashionStoresConstraint: NSLayoutConstraint!
     
     lazy var coreDataStack = CoreDataStack(modelName: "Stores")
-
+    var fetchRequest:NSFetchRequest<Store>?
+    var stores: [Store] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        UIView.animate(withDuration: 1, animations: {
+            let newConstraint = self.fashionStoresConstraint.constraintWithMultiplier(0.1)
+            self.view.removeConstraint(self.fashionStoresConstraint)
+            self.view.addConstraint(newConstraint)
+            self.view.layoutIfNeeded()
+            self.fashionStoresConstraint = newConstraint
+        }, completion: nil)
+        
+   
         fetchJSONData()
+        
+        guard let model = coreDataStack.managedObjectContext.persistentStoreCoordinator?.managedObjectModel, let fetchRequest = model.fetchRequestTemplate(forName: "StoresFetchRequest") as? NSFetchRequest<Store> else {
+            return
+        }
+        
+        self.fetchRequest = fetchRequest
+        do {
+            stores =
+                try coreDataStack.managedObjectContext.fetch(fetchRequest)
+            tableView.reloadData()
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
         
     }
     
@@ -96,13 +121,14 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource {
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 10
+    return stores.count
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "StoreCell", for: indexPath)
-    cell.textLabel?.text = "Fashion Store"
-    cell.detailTextLabel?.text = "Price Info"
+    let store = stores[indexPath.row]
+    cell.textLabel?.text = store.name
+    cell.detailTextLabel?.text = store.price?.priceRange
     return cell
   }
 }
