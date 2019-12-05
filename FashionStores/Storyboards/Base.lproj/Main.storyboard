@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="334" width="414" height="440"/>
                                 <color key="backgroundColor" red="0.6271439271" green="0.50092941150000003" blue="0.5131712128" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoreCell" textLabel="abo-jm-GQi" detailTextLabel="uJk-Ej-AFt" rowHeight="55" style="IBUITableViewCellStyleValue1" id="XYo-e3-O9n">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreCell" textLabel="abo-jm-GQi" detailTextLabel="uJk-Ej-AFt" rowHeight="55" style="IBUITableViewCellStyleValue1" id="XYo-e3-O9n">
                                         <rect key="frame" x="0.0" y="28" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XYo-e3-O9n" id="Gox-ZH-dNH">
@@ -70,7 +70,7 @@
                     <navigationItem key="navigationItem" id="3Xd-Qe-YDF">
                         <barButtonItem key="rightBarButtonItem" title="Filter" id="JRN-nu-XHT">
                             <connections>
-                                <segue destination="nzI-u8-5uN" kind="presentation" modalTransitionStyle="crossDissolve" id="0aM-uP-LDS"/>
+                                <segue destination="nzI-u8-5uN" kind="presentation" identifier="ShowFilterScreen" modalTransitionStyle="crossDissolve" id="0aM-uP-LDS"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -187,7 +187,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="CheckIn Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Aw-MY-f9c">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Total CheckIns: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Aw-MY-f9c">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -205,7 +205,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Proximity (&lt; 1000m)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="728-iP-APA">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Proximity (&lt; 10000m)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="728-iP-APA">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>

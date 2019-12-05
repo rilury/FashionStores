@@ -9,10 +9,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -24,7 +24,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 5435
                 },
                 "price":{
                     "tier":1,
@@ -40,10 +40,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -55,7 +55,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 543
                 },
                 "price":{
                     "tier":1,
@@ -71,10 +71,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -86,7 +86,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 543
                 },
                 "price":{
                     "tier":1,
@@ -117,7 +117,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 543
                 },
                 "price":{
                     "tier":1,
@@ -148,7 +148,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 365
                 },
                 "price":{
                     "tier":1,
@@ -179,7 +179,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 453
                 },
                 "price":{
                     "tier":1,
@@ -195,10 +195,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -210,7 +210,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 566
                 },
                 "price":{
                     "tier":1,
@@ -241,7 +241,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 765
                 },
                 "price":{
                     "tier":1,
@@ -257,10 +257,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -272,7 +272,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 356
                 },
                 "price":{
                     "tier":1,
@@ -303,11 +303,11 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 575
                 },
                 "price":{
                     "tier":1,
-                    "message":"Luxury",
+                    "message":"Medium",
                     "currency":"$"
                 }
             },
@@ -334,7 +334,38 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 76
+                },
+                "price":{
+                    "tier":1,
+                    "message":"Luxury",
+                    "currency":"$"
+                }
+            },
+            {
+                "id": "4e3c89c8aeb73139a16d84ee",
+                "name": "Chanel",
+                "contact": {
+                    "phone": "2123343536",
+                    "formattedPhone": "(212) 334-3536"
+                },
+                "location": {
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
+                    
+                },
+                "categories": [
+                    {
+                        "id": "52e81612bcbc57f1066b7a0c",
+                        "name": "Fashion Store",
+                        "pluralName": "Fashion Stores",
+                        "shortName": "Bubble Tea"
+                    }
+                ],
+                "stats": {
+                    "checkinsCount": 3533
                 },
                 "price":{
                     "tier":1,
@@ -365,7 +396,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 664
                 },
                 "price":{
                     "tier":1,
@@ -396,7 +427,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 767
                 },
                 "price":{
                     "tier":1,
@@ -412,10 +443,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -427,7 +458,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 8788
                 },
                 "price":{
                     "tier":1,
@@ -443,10 +474,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -458,7 +489,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 76
                 },
                 "price":{
                     "tier":1,
@@ -489,7 +520,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 64
                 },
                 "price":{
                     "tier":1,
@@ -520,7 +551,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 4234
                 },
                 "price":{
                     "tier":1,
@@ -550,7 +581,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 2242
                 },
                 "price":{
                     "tier":1,
@@ -566,10 +597,10 @@
                     "formattedPhone": "(212) 334-3536"
                 },
                 "location": {
-                    "address": "234 Canal St",
-                    "postalCode": "10013",
-                    "city": "New York",
-                    "country": "United States"
+                    "address": "1 Bulevardul Unirii",
+                    "postalCode": "030167",
+                    "city": "Bucuresti",
+                    "country": "Romania"
                     
                 },
                 "categories": [
@@ -612,7 +643,7 @@
                     }
                 ],
                 "stats": {
-                    "checkinsCount": 6820
+                    "checkinsCount": 5435
                 },
                 "price":{
                     "tier":1,

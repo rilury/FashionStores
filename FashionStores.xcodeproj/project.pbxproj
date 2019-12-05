@@ -84,8 +84,24 @@
 		49B2006A23953DB200A02482 /* FashionStores */ = {
 			isa = PBXGroup;
 			children = (
-				49B20084239550B000A02482 /* Price+CoreDataClass.swift */,
+				49B2006B23953DB200A02482 /* AppDelegate.swift */,
+				49B2006D23953DB200A02482 /* SceneDelegate.swift */,
+				49B2009C239956CA00A02482 /* CoreData */,
+				49B200A02399572B00A02482 /* DataBase */,
+				49B2009D239956FA00A02482 /* Controllers */,
+				49B2009F2399572300A02482 /* Extensions */,
+				49B2009E2399571200A02482 /* Storyboards */,
+				49B2007423953DB300A02482 /* Assets.xcassets */,
+				49B2007923953DB300A02482 /* Info.plist */,
+			);
+			path = FashionStores;
+			sourceTree = "<group>";
+		};
+		49B2009C239956CA00A02482 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
 				49B20085239550B000A02482 /* Price+CoreDataProperties.swift */,
+				49B20084239550B000A02482 /* Price+CoreDataClass.swift */,
 				49B20086239550B000A02482 /* Store+CoreDataClass.swift */,
 				49B20087239550B100A02482 /* Store+CoreDataProperties.swift */,
 				49B20088239550B100A02482 /* Location+CoreDataClass.swift */,
@@ -94,19 +110,43 @@
 				49B2008B239550B100A02482 /* Type+CoreDataProperties.swift */,
 				49B2008C239550B100A02482 /* Checkin+CoreDataClass.swift */,
 				49B2008D239550B100A02482 /* Checkin+CoreDataProperties.swift */,
-				49B2006B23953DB200A02482 /* AppDelegate.swift */,
-				49B2006D23953DB200A02482 /* SceneDelegate.swift */,
-				49B2006F23953DB200A02482 /* ViewController.swift */,
-				49B2007123953DB200A02482 /* Main.storyboard */,
-				49B2007423953DB300A02482 /* Assets.xcassets */,
-				49B2007623953DB300A02482 /* LaunchScreen.storyboard */,
-				49B2007923953DB300A02482 /* Info.plist */,
-				49B2007F23953E2700A02482 /* stores.json */,
 				49B200812395438700A02482 /* Stores.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		49B2009D239956FA00A02482 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49B2006F23953DB200A02482 /* ViewController.swift */,
 				49B20098239564C300A02482 /* FilterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49B2009E2399571200A02482 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				49B2007123953DB200A02482 /* Main.storyboard */,
+				49B2007623953DB300A02482 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		49B2009F2399572300A02482 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				49B2009A2396654200A02482 /* Extensions.swift */,
 			);
-			path = FashionStores;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49B200A02399572B00A02482 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				49B2007F23953E2700A02482 /* stores.json */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -16,7 +16,8 @@ extension Location {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Location> {
         return NSFetchRequest<Location>(entityName: "Location")
     }
-
+    
+    @NSManaged public var distance: Double
     @NSManaged public var address: String?
     @NSManaged public var city: String?
     @NSManaged public var country: String?
