@@ -51,6 +51,11 @@ class FilterViewController: UITableViewController {
             key: #keyPath(Store.price.priceRange),
             ascending: true)
     }()
+    lazy var checkInSortDescriptor: NSSortDescriptor = {
+        return NSSortDescriptor(
+            key: #keyPath(Store.checkin.count),
+            ascending: true)
+    }()
     
     //MARK: Outlets
     @IBOutlet weak var economyLabel: UILabel!
@@ -177,6 +182,7 @@ class FilterViewController: UITableViewController {
             selectedPredicate = NSPredicate(format: "%K = %@", #keyPath(Store.price.priceRange), priceRange.rawValue)
         case checkInsCell:
             selectedPredicate = checkInsPredicate
+            selectedSortDescriptor = checkInSortDescriptor
         case proximityCell:
             self.selectedPredicate = locationPredicate
         case nameAZSortCell:

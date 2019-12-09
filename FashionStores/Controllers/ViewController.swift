@@ -54,6 +54,19 @@ class ViewController: UIViewController {
         fetchRequest = Store.fetchRequest()
         fetchAndReloadData()
         
+        let batchUpdate = NSBatchUpdateRequest(entityName: "Store")
+        batchUpdate.propertiesToUpdate = [#keyPath(Store.favourite): true]
+        
+        batchUpdate.affectedStores = coreDataStack.managedObjectContext.persistentStoreCoordinator?.persistentStores
+        batchUpdate.resultType = .updatedObjectsCountResultType
+        
+        do {
+            let batchResult = try coreDataStack.managedObjectContext.execute(batchUpdate) as! NSBatchUpdateResult
+            print("updated \(batchResult.result!) objects")
+        } catch let error as NSError {
+            print(error.description)
+        }
+        
     }
     
     //MARK: Core Data Methods
